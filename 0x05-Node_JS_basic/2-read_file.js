@@ -11,7 +11,7 @@ function countStudents(filePath) {
     let countSwe = 0;
     const csStudents = [];
     const sweStudents = [];
-    for (let i = 1; i < lines.length; i + 1) {
+    for (let i = 1; i < lines.length; i += 1) {
       const val = lines[i].split(',');
       const name = val[0];
       const dep = val[3].trim();
